@@ -25,7 +25,7 @@ function App() {
       >
         third
       </button>
-      <button onClick={addFive}>Four</button>
+      <button onClick={() => addFive(3)}>Four</button>
     </>
   );
 }
